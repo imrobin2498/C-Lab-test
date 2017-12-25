@@ -44,7 +44,8 @@ class segment:public circle
   float sega()
   {
      float k;
-     k=l/r;cout<<"@="<<k<<endl;
+     k=l/r;  
+     cout<<"@="<<k<<endl;//only to check whats the angle coming
       return(0.5*r*r*(k-sin(k)));
   }
 };
